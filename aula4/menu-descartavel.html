@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu descartavel</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5efeb;
+            color: #2f4156;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(30deg, #c8d9e6, #2f4156);
+            padding: 20px;
+            margin-bottom: 0px;
+        }
+
+        header h1 {
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+        nav a {
+            background-color: #f5efeb;
+            color: #2f4156;
+            padding: 5px 10px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        nav a:hover {
+            background-color: #b2ebeb;
+            transform: scale(1.05);
+        }
+
+        h2 {
+            margin-top: 70px;
+            color: #2f4156;
+            border-bottom: 2px solid #567c8d;
+            padding-bottom: 5px;
+        }
+
+        .secao {
+            margin-bottom: 200px;
+        }
+
+        .conteudo-flex {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .conteudo-flex img {
+            width: 200px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .texto {
+            max-width: 800px;
+        }
+                .logo-texto {
+            display: flex;
+            align-items: center;  
+            gap: 20px;            
+        }
+
+        .logo-texto img {
+            border-radius: 8px;
+            margin-bottom: 0px; 
+        }
+
+        .logo-texto h1 {
+            margin: 50;
+            font-size: 24px;
+            color: black;
+            margin-top: 10px;
+        }
+        .subtexto {
+            text-align: left;
+            color: black;
+            margin-left: 120px;
+            font-size: 14px;
+            font-style: comic;
+            margin-bottom: 10px;
+        }
+    .video-container {
+      position: relative;
+      width: 100%;      /* ocupa toda a largura disponível */
+      max-width: 800px; /* largura máxima */
+      padding-top: 25%;
+      margin-left: 320px;
+      margin-top: 60px;
+      border-radius: 20px; /* bordas arredondadas */
+      overflow: hidden;    /* corta o que ultrapassa o border-radius */
+      box-shadow: 10px 15px 25px rgba(0,0,0,0.5); /* sombra suave */
+      }
+      .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; /* remove borda padrão do iframe */
+           
+    }
+    .conteudo-flex2 {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .conteudo-flex2 img {
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .texto2 {
+            max-width: 800px;
+        }
+                .logo-texto {
+            display: flex;
+            align-items: center;  
+            gap: 20px;            
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-texto">
+        <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-3588-61f5-b991-69c668447ad0/raw?se=2025-09-16T12%3A40%3A38Z&sp=r&sv=2024-08-04&sr=b&scid=bb035909-7135-5e3a-8af6-7f9f40f71382&skoid=04233560-0ad7-493e-8bf0-1347c317d021&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-16T00%3A12%3A11Z&ske=2025-09-17T00%3A12%3A11Z&sks=b&skv=2024-08-04&sig=qSWblKzxfNWFuPYYnnv26o5K95Tydy8YHCdVwC1U%2BRM%3D" width="100" height="100" alt="Logo">
+        <h1>Escola Global</h1>
+    </div>
+
+    <!-- Texto centralizado abaixo -->
+    <p class="subtexto">sua aprendizagem começa aqui ; )</p>
+
+    <nav>
+        <div class="menu" id="menu">
+            <a href="#secao1">Seção 1</a>
+            <a href="#secao2">Seção 2</a>
+            <a href="#secao3">Seção 3</a>
+            <a href="https://www.youtube.com/" target="_blank">Login</a>
+        </div>
+    </nav>
+</header>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iglvOa_HpbM?si=oQ90mSHcN3g-KvD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    </div>
+
+    <div class="secao" id="secao1">
+        <h2>Seção 1</h2>
+        <div class="conteudo-flex">
+            <img src="https://i.pinimg.com/1200x/04/ee/21/04ee2192798ea6cfbce243b2f3cbb125.jpg" alt="Descrição da imagem">
+            <div class="texto">
+                <p>Nesta imagem curiosa e divertida, temos uma escultura artesanal feita com lã feltrada, representando de forma criativa uma criatura peculiar. A figura tem um formato arredondado e é predominantemente verde, com detalhes em preto que parecem formar os olhos e os pés, além de uma faixa rosa que representa uma boca larga e sorridente. Os olhos estão posicionados de maneira assimétrica, dando à personagem um ar caricato e expressivo. A peça transmite uma sensação de humor e simplicidade, como se tivesse saído diretamente da imaginação de alguém em um momento de descontração criativa. O fundo neutro de madeira e tecido contrasta com as cores vibrantes da figura, destacando ainda mais sua aparência excêntrica. Essa escultura poderia muito bem fazer parte de uma coleção de arte lúdica ou de um projeto escolar divertido, despertando a curiosidade e o sorriso de quem a observa.</p>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="secao" id="secao2">
+        <h2>Seção 2</h2>
+        <div class="conteudo-flex2">
+    <img src="https://i.pinimg.com/736x/b4/96/70/b49670220b049d95e926aa787a3b354d.jpg" height="300" width="200">
+    <div class="texto2">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aliquam amet ipsam, quisquam architecto esse dolorum ullam laborum necessitatibus eos cum incidunt quos consequuntur id ipsa doloremque consequatur quod, rem error illo fugiat vel! Voluptatibus quo distinctio dignissimos quia, omnis aliquid possimus voluptas doloremque ab vitae est aspernatur! Itaque asperiores ipsam necessitatibus repellat vitae temporibus eos consequatur velit at eaque. Ab eum quos reprehenderit sed incidunt maiores itaque maxime, iure excepturi dicta laborum vero, voluptatem fugiat commodi non nam deserunt placeat odio esse neque magnam asperiores. Rem, consequuntur labore! Odit sed, ea vel quae nostrum molestiae velit aperiam esse provident eius id tempore ipsa eum sit omnis doloribus et modi maiores distinctio excepturi consectetur illum fugiat dolores. Odit recusandae iste odio a, harum, at molestiae incidunt accusantium dicta minima, ex hic labore sequi. Nam dolor eius eum qui quasi maiores, corrupti expedita sit modi veniam fugit itaque, iusto animi ut corporis ratione labore reiciendis beatae? Ad rerum quidem amet officiis dolor nostrum, animi deleniti beatae, accusamus voluptas mollitia voluptatem eaque delectus esse tempore. Deserunt, velit natus cumque fugiat possimus tenetur. Tempore temporibus officia perferendis commodi nam obcaecati, saepe dignissimos laborum, fuga rem, explicabo repellat id! Sit error iusto officia doloremque!</p>
+        </div>
+    </div>
+</div>
+
+    <div class="secao" id="secao3">
+        <h2>Seção 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi, consequatur voluptas repudiandae magnam iusto quas accusamus similique neque praesentium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, asperiores cumque!</p>
+    </div>
+
+</body>
+<script>
+  // Cria o botão dinamicamente
+  const btnVoltar = document.createElement('button');
+  btnVoltar.id = 'btnVoltar';
+  btnVoltar.title = 'Voltar ao topo';
+  btnVoltar.textContent = 'Voltar';
+
+  // Aplica estilo inline para o botão igual aos links do menu e centralizado
+  Object.assign(btnVoltar.style, {
+    position: 'fixed',
+    bottom: '30px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    padding: '5px 15px',
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    fontWeight: 'bold',
+    fontSize: '14px',
+    backgroundColor: '#2f4156',  // mesmo fundo dos links
+    color: '#f5efeb',            // mesma cor do texto dos links
+    borderRadius: '15px',
+    border: 'none',
+    cursor: 'pointer',
+    boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
+    display: 'none',
+    transition: 'background-color 0.3s, transform 0.2s',
+    zIndex: '1000',
+  });
+
+  // Efeito hover igual aos links do menu
+  btnVoltar.addEventListener('mouseenter', () => {
+    btnVoltar.style.backgroundColor = '#b2ebeb';
+    btnVoltar.style.transform = 'translateX(-50%) scale(1.05)';
+  });
+  btnVoltar.addEventListener('mouseleave', () => {
+    btnVoltar.style.backgroundColor = '#f5efeb';
+    btnVoltar.style.transform = 'translateX(-50%) scale(1)';
+  });
+
+  // Adiciona o botão ao body
+  document.body.appendChild(btnVoltar);
+
+  // Mostra o botão quando o usuário chega ao fim da página
+  window.addEventListener('scroll', () => {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+      btnVoltar.style.display = 'block';
+    } else {
+      btnVoltar.style.display = 'none';
+    }
+  });
+
+  // Ao clicar, volta suavemente para o topo (header)
+  btnVoltar.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+</html>

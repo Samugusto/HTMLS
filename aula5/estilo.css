@@ -1,0 +1,35 @@
+*{ /*aplica a todos os elementos*/
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+.destaque { /* reutilizavel em vários elementos */
+    color: blue;
+    font-weight: bold; 
+}
+#titulo-principal { /* único para um elemento especifico*/
+    color:red;
+    text-align: center;
+}
+p { /*altera todos os elemtnos daquela tag*/
+    font-size: 18px;
+    line-height: 1.5;
+}
+h1, h2, h3 { /*agrupamento de seletores*/
+    font-family: arial, sans-serif;
+    color: darkgreen;
+}
+h4 {
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+img {
+    width: 300px;
+    border: 3px solid red;
+    display: block;
+    margin: auto;
+}
+ul {
+    list-style-type: circle;
+}
