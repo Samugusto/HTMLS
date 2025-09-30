@@ -1,0 +1,173 @@
+ .algo img {
+    height: 70px;
+    width: 70px;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 15px;
+ }
+    .algo h1 {
+    margin: 50;
+    font-size: 19px;
+    color: black;
+    margin-top: 5px;
+    overflow: auto;
+}
+header {
+    background-color: burlywood;
+    padding: 35px;
+    border-radius: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li {
+    float:left
+}
+.algo a {
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.algo a:hover {
+    color:black;
+    text-decoration: underline;
+    background-color: gray;
+}
+.imagem {
+  float: left; 
+  margin-right: 15px;
+}
+
+.container {
+  overflow: auto; 
+}
+h2 {
+    text-align: center;
+    margin-top: 30px;
+      width: 500px; /* Largura */
+  height: 150px; /* Altura */
+  border: 6px; /* Borda para criar o formato do quadrado */
+  border-radius: 6px;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  display: flex; /* Usa flexbox para centralização vertical */
+  align-items: center; /* Centraliza o texto verticalmente */
+  justify-content: center;
+  margin-left: 500px;
+  background-color: blanchedalmond;
+}
+    .video-container {
+      position: relative;
+      width: 100%;      
+      max-width: 800px; 
+      padding-top: 25%;
+      margin-left: 370px;
+      margin-top: 60px;
+      border-radius: 20px; 
+      overflow: hidden;    
+      box-shadow: 10px 15px 25px rgba(0,0,0,0.5); 
+      }
+      .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; 
+      }
+.fundo {
+    background-image: url(https://i.pinimg.com/1200x/67/dd/12/67dd12d87fc2a25627609896589568d2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .secredinho img {
+    margin-left: 450px;
+    margin-top: 500px;
+  }
+  .texto {
+        text-align: center;
+    margin-top: 20px;
+      width: 700px; /* Largura */
+  height: 150px; /* Altura */
+  border: 6px; /* Borda para criar o formato do quadrado */
+  border-radius: 6px;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  display: flex; /* Usa flexbox para centralização vertical */
+  align-items: center; /* Centraliza o texto verticalmente */
+  justify-content: center;
+  margin-left: 450px;
+  background-color: blanchedalmond;
+  }
+  .texto img{
+    margin-left: 25px;
+    border-radius: 6px;
+  }
+.listatopsigma ul {
+    background-color: blanchedalmond;
+    border-radius: 6px;
+    list-style: none;
+    padding: 0;
+    margin-left: 450px ; /* centraliza horizontalmente a lista */
+    width: 700px; /* largura da lista */
+}
+
+.listatopsigma li {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* para que ocupe o width do ul */
+    height: 100px; /* altura fixa para alinhar imagens e texto */
+    overflow: hidden;
+}
+
+.listatopsigma li img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+
+    border-radius: 6px;
+ }
+
+.listatopsigma li span {
+    display: block;
+    line-height: 100px; /* centraliza verticalmente o texto com a altura do li */
+    font-size: 18px;
+    color: #333;
+}
+  .texto2 {
+        text-align: center;
+    margin-top: 20px;
+      width: 500px; /* Largura */
+  height: 150px; /* Altura */
+  border: 6px; /* Borda para criar o formato do quadrado */
+  border-radius: 6px;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  display: flex; /* Usa flexbox para centralização vertical */
+  align-items: center; /* Centraliza o texto verticalmente */
+  justify-content: center;
+  margin-left: 500px;
+  background-color: blanchedalmond;
+  }
+  .texto img{
+    margin-left: 25px;
+    border-radius: 6px;
+  }
