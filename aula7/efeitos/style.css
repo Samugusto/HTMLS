@@ -1,0 +1,61 @@
+button {
+    margin-top: 00px;
+    margin-left: 600px;
+    background: transparent;
+    color: white;
+    transition: background 2.0s ease;
+  background-image: url(https://abrafrutas.org/wp-content/uploads/2023/04/destaque-manga.webp); /* 1. Define a imagem */
+  background-size: cover;                      /* 2. Dimensiona a imagem */
+  background-repeat: no-repeat;                 /* 3. Evita a repetição */
+  background-position: center;                  /* 4. Centraliza a imagem */
+  width: 300px;                                /* 5. Largura do botão */
+  height: 300px;                                /* 6. Altura do botão */
+  border: none;                                /* 7. Remove a borda do botão */
+  cursor: pointer;                             /* 8. Indica que é clicável */
+}
+button:hover{
+    background-image: url(https://i.pinimg.com/1200x/24/f5/1e/24f51efef79a8676bb6096e094a2ffc1.jpg);
+}
+@keyframes piscar{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+#div1{
+    animation: piscar 2s infinite;
+    text-align: center;
+}
+img{
+    margin-left: 600px;}
+
+.imagemg:hover {
+  animation: girar 0.1s linear infinite; /* Ajuste '5s' para a velocidade */
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#div1:hover{
+    transform: translate(50px, 20px);
+}
+#div2 {
+    background: linear-gradient(to right, red, yellow);
+}
+#div3{
+background: radial-gradient(circle, blue,white);
+}
+div{
+    width: 80px;
+    height: 50px;
+    margin-left: 700px;
+}
+#imagem2{
+  opacity: 0.6;
+  border-radius: 50%;
+}
